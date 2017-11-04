@@ -55,7 +55,7 @@
       "name": "Justin Beckwith"
     }
   ],
-  "version": "22.3.0",
+  "version": "22.3.1",
   "scripts": {
     "posttest": "npm run lint",
     "test": "npm run cover",
@@ -80,6 +80,7 @@
   ],
   "description": "Google APIs Client Library for Node.js",
   "main": "./lib/googleapis.js",
+  "types": "./lib/googleapis.ts",
   "engines": {
     "node": ">=4.0"
   },
